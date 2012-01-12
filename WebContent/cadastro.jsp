@@ -3,29 +3,43 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<style>
+.texto_cabecalho{
+font-family: verdana;
+font-size: large;
+background-color: silver;
+border-width: thin;
+}
+.texto_links{
+font-family: verdana;
+font-size: medium;
+}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Cadastro</title>
 </head>
 <body>
-	
-	<div>
-	<%@include file='template/header.html' %>
-		
-		<div id="main" style="padding:15% 33% 15% 33%; margin: 3px 0 3px 0; 
-		border:1px solid;">
-		
-		<div id="esquerda" style="width: 300px; height:400px; float: left;">
-		<img src="imagens/cadastro.jpg">
-		</div>
-		
-		<div id="direita" style="width: 100px; float:right;">
-		
-		</div>
-		
-		</div>
-	
-	<%@include file='template/footer.html' %>
-	</div>
+<hr>
+<table border="0px">
+
+<tr>
+<th class="texto_cabecalho">Cadastro</th>
+</tr>
+<tr>
+<td><img src="imagens/cadastro.jpg" width="80%" style="border-top-width: thin;"/></td>
+<td>
+
+<div class="texto_links">
+<ul>
+	<li><a href="cadastroApartamento.jsp">Apartamento</a></li>
+	<li>Pessoa</li>
+	<li>Aluguel</li>
+</ul>
+</div>
+
+</td>
+</tr>
+</table>	
 	
 </body>
 </html>

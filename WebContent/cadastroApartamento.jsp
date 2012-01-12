@@ -10,9 +10,6 @@
 </head>
 <body>
 
-<div>
-	<%@include file='template/header.html' %>
-		
 		<div id="main" style="padding:50px;border:1px solid;">
 					
 					<h2>Cadastro Apartamento</h2>
@@ -32,8 +29,5 @@
 	
 		</div>
 	
-	<%@include file='template/footer.html' %>
-	</div>
-
 </body>
 </html>
