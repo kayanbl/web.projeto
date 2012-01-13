@@ -1,12 +1,9 @@
 package actions;
 
 import persistence.ApartamentoDao;
-
-import com.opensymphony.xwork2.ActionSupport;
-
 import entity.Apartamento;
 
-public class ApartamentoAction extends ActionSupport {
+public class ApartamentoAction extends Page {
 
 	private static final long serialVersionUID = 1L;
 	private Apartamento apartamento;
@@ -15,6 +12,10 @@ public class ApartamentoAction extends ActionSupport {
 	public ApartamentoAction() {
 		apartamento = new Apartamento();
 		apartamentoDao = new ApartamentoDao();
+	}
+
+	public String execute() {
+		return SUCCESS;
 	}
 
 	public String saveOrUpdate() {

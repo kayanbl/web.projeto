@@ -10,11 +10,11 @@
 			<result name="success">/home.jsp</result>
 			<result name="input">/index.jsp</result>
 		</action>
-
+		
 		<action name="saveOrUpdateApartamento" class="actions.ApartamentoAction" method="saveOrUpdate">
 			<result name="success">/cadastroApartamento.jsp</result>
 		</action>
-
+		
 	</package>	
 	
 </struts>
