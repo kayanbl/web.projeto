@@ -14,7 +14,7 @@ body{
 text-align: center;
 word-spacing: 50px;
 padding:10px;
-background-color: #666666;
+background-color: #A1A1A1;
 font-family: verdana;
 font-size: small;
 } 

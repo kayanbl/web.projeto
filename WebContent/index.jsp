@@ -47,7 +47,7 @@ background-color: silver;
 
 <s:form action="logar">
 
-	<s:textfield label="Usuário" name="pessoa.usuario"></s:textfield> <p/>
+	<s:textfield label="Usuário" name="pessoa.login"></s:textfield> <p/>
 	<s:password label="Senha" name="pessoa.senha"></s:password>
 	<s:submit value="Entrar"></s:submit>
 	
